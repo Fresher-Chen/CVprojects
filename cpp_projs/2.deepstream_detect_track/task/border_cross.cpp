@@ -36,7 +36,7 @@ bool doIntersect(Point p1, Point q1, Point p2, Point q2) {
         return true;
     }
     if (o4 == 0 && onSegment(p2, q1, q2)) {
-        return false;
+        return true;
     }
     return false;
 }
